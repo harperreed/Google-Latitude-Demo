@@ -1,0 +1,31 @@
+README
+======
+
+Requirements
+------------
+ - PHP >= 5.2.0 (http://php.net/)
+ - Zend OAuth libraries (http://framework.zend.com/)
+
+
+Registering Your Application
+----------------------------
+ - Go to http://code.google.com/apis/accounts/docs/RegistrationForWebAppsAuto.html
+ - Register your application
+ - Edit config.php to provide your CONSUMER_KEY and CONSUMER_SECRET
+ - Save the changes
+
+
+Authorising your Application
+-----------------_----------
+ - open a terminal window
+ - run 'php auth.php'
+ - Your browser should open and you will be prompted to authorise the application
+ - When you receive the authorisation token paste it back into the terminal window
+ - You should then be returned to the command prompt
+ - You will notice a new file: token.txt. This contains your auth token
+
+
+Getting your current location
+-----------------------------
+ - open a terminal window
+ - run 'php currentLocation.php'
